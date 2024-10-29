@@ -55,11 +55,17 @@ iframe#tela {
 }
 section#contato img {
     width: 27px;
-    margin: 10px;
+    margin: 6px;
     border-radius: 1%;
     text-align: right;
 }
 
 section#contato {
-    text-align: right;           
+    position: absolute;
+    top: 8px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
 }
+
