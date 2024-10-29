@@ -14,11 +14,20 @@ html, body {
 body {
     background: url('../imagens/matrix.jpg') no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
 
+.logo {
+    width: 78px;
+    height: auto; 
+    margin: 0;
+    position: absolute;
+    top: 13px;
+    left: 20px;
 }
 
 main {
-    position:relative;
     height: 100vh;
 }
 
@@ -30,17 +39,27 @@ section#mockup {
 
     background-color: #EAEAEA;
     width: 280px;
-    height: 564px;
+    height: 550px;
     background: url('../imagens/mockup.png') no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 iframe#tela {
     position: relative;
     top: 23px;
-    left: 22.5px;
+    left: 22.8px;
     border-radius: 30px;
     width: 235px;
     height: 510px;
     
+}
+section#contato img {
+    width: 27px;
+    margin: 10px;
+    border-radius: 1%;
+    text-align: right;
+}
+
+section#contato {
+    text-align: right;           
 }
