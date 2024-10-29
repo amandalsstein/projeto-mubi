@@ -33,5 +33,14 @@ section#mockup {
     height: 564px;
     background: url('../imagens/mockup.png') no-repeat;
     background-size: contain;
+}
 
+iframe#tela {
+    position: relative;
+    top: 23px;
+    left: 22.5px;
+    border-radius: 30px;
+    width: 235px;
+    height: 510px;
+    
 }
