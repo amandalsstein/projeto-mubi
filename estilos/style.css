@@ -41,6 +41,7 @@ section#mockup {
     height: 550px;
     background: url('../imagens/mockup.png') no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 iframe#tela {
